@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK, PAPER, SCISSORS</title>
+    <link rel="stylesheet" href="rps.css">
+</head>
+<body>
+    <header>
+        ROCK, PAPER, SCISSORS
+    </header>
+    <main>
+        <div class="players">
+            <div class="player">
+                <label for="player-1">PLAYER ONE</label>
+                <input type="text" id="player-1" autocomplete="off">
+            </div>
+            <div class="player">
+                <label for="player-2" class="player">PLAYER TWO</label>
+                <input type="text" id="player-2" autocomplete="off">
+            </div>
+        </div>
+        <div class="play">
+            <input type="button" value="PLAY" class="play-button" id="play">
+            <p class="winner" id="winner"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
